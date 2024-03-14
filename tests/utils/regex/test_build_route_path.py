@@ -29,7 +29,7 @@ def test_build_route_path_empty():
     with pytest.raises(ValueError) as excinfo:
         build_route_path(" ")
     assert str(excinfo.value) == "Invalid path"
-
+    
     with pytest.raises(ValueError) as excinfo:
         build_route_path("")
     assert str(excinfo.value) == "Invalid path"
