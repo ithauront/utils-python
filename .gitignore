@@ -1,2 +1,66 @@
-venv
-.venv
+# ==========================
+# Arquivos e pastas do Python
+# ==========================
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+*.dylib
+
+# ==========================
+# Ambientes virtuais
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Cache, logs e builds
+# ==========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Ferramentas de build / distribuição
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# IDEs e editores
+# ==========================
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+
+# ==========================
+# Testes e coverage
+# ==========================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# ==========================
+# Arquivos temporários de ferramentas
+# ==========================
+.mypy_cache/
+.pyre/
+.pytype/
+.cache/
+*.todo

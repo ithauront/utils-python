@@ -13,3 +13,25 @@ This repository contains a small collection of utility functions written in Pyth
 - 🧪 Type-safe with `mypy`.
 
 ---
+
+## Geting Started
+
+- After clonning the repo you must create a virtual environment
+```bash
+python3 -m venv .venv
+```
+
+- Then activate it:
+```bash
+source .venv/bin/activate
+```
+
+- now you can install the requirements:
+```bash
+pip install -r requirements.txt
+```
+
+- and run the tests to certificate everything is in order
+```bash
+pytest -q
+```
