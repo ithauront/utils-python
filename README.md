@@ -6,13 +6,42 @@ This repository contains a small collection of utility functions written in Pyth
 
 ## 📦 Features
 
-- 🔢 **Dynamic Route Parser** – Convert route patterns like `/user/:id` into regex with named groups.
-- 🏙️ **CEP to City/State Lookup** – Fetch city and state information from a Brazilian postal code.
-- 🔍 **Query Parameter Extraction** – (More in progress: e.g., `extract_query_params.py`)
-- 🎯 All functions are unit tested with `pytest`.
-- 🧪 Type-safe with `mypy`.
+This repository includes utilities for:
+
+### 🔢 Data validation & generation
+- Brazilian CPF generator (`cpf_generator.py`)
+- Brazilian phone number validation (`brazilian_phone_number_validation.py`)
+- Username validation (`username_validation.py`)
+- Password validation (`password_validation.py`)
+
+### 🏙️ Location & Brazilian data
+- CEP (postal code) to city/state lookup using ViaCEP (`cep_to_city_and_state.py`)
+
+### 🔍 Data parsing & extraction
+- Query parameter extraction (`extract_query_params.py`)
+- Regex-based utilities (`regex/` module)
+
+### ✂️ Text processing
+- Split text into chunks without breaking words (`split_text_into_chunks.py`)
+- Trim text to last complete word (`trim_to_last_word.py`)
 
 ---
+
+## 🧪 Testing
+
+All utilities are fully tested using `pytest`.
+
+Run tests with:
+```bash
+pytest -q
+```
+
+🧪 Type Checking
+
+This project uses mypy for static type checking:
+```bash
+mypy .
+```
 
 ## Geting Started
 
